@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background: linear-gradient(236.85deg, #041832 27.26%, #3468a7 96.03%);
+}
+
+.container {
+  background: #ecf4ff;
+  margin: 64px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  border-radius: 20px;
+  color: #1c1c1c;
+  padding: 64px;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile {
+  display: flex;
+}
+
+.profile-figure {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 460px;
+  max-height: 160px;
+}
+
+.title {
+  margin-left: 16px;
+}
+
+.title h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.title h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.theme button {
+  align-self: flex-end;
+  font-weight: 400;
+  font-size: 24px;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  border: 2px solid #0e1d2f;
+  box-sizing: border-box;
+  border-radius: 100px;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+  padding: 32px;
+}
+
+.projects-title {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projects-itens {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 48px;
+}
+
+.projects-itens a {
+  color: #1c1c1c;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+
+.dark .projects {
+  color: #1c1c1c;
+}
+
+.dark .theme button {
+  background: #1c1c1c;
+  color: #fff;
+  border: 2px solid #f7f7f7;
+}
